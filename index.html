@@ -1,68 +1,125 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Ammoury Electric</title>
+
+<title>Ammoury Electric | It’s a lifestyle.</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Ammoury Electric offers chandeliers, decorative lighting, LED lighting, and modern lighting solutions. It’s a lifestyle.">
+
 <style>
 
 body{
-font-family:Arial;
+font-family: 'Georgia', serif;
 margin:0;
-background:#f5f5f5;
+background:#f8f5ef;
+color:#1a1a1a;
 text-align:center;
 }
 
 header{
-background:black;
+background:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
 color:white;
-padding:80px 20px;
+padding:140px 20px;
 }
 
 h1{
-font-size:50px;
-margin-bottom:10px;
+font-size:64px;
+margin-bottom:15px;
+letter-spacing:1px;
+font-weight:normal;
+}
+
+h2{
+font-size:36px;
+margin-bottom:20px;
+font-weight:normal;
+color:#1f1f1f;
+}
+
+p{
+font-size:18px;
+line-height:1.8;
+max-width:900px;
+margin:0 auto 20px auto;
 }
 
 .button{
-background:#ffd000;
-padding:15px 25px;
+background:#c6a86a;
+padding:16px 32px;
 text-decoration:none;
-color:black;
+color:white;
 font-weight:bold;
-border-radius:6px;
+border-radius:30px;
+display:inline-block;
+transition:0.3s;
+border:none;
+}
+
+.button:hover{
+background:#a8894f;
 }
 
 section{
-padding:60px 20px;
+padding:90px 20px;
 }
 
 .products{
-background:white;
+background:#ffffff;
 }
 
 .grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:20px;
-max-width:900px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+max-width:1100px;
 margin:auto;
 }
 
 .card{
-background:#fafafa;
-padding:40px;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
+background:white;
+padding:45px 25px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+text-decoration:none;
+color:#1a1a1a;
+font-weight:bold;
+display:block;
+transition:0.3s;
+font-size:20px;
+}
+
+.card:hover{
+transform:translateY(-8px);
+background:#f3ede2;
+}
+
+.gallery{
+background:#fdfaf5;
 }
 
 .gallery img{
-width:250px;
-margin:10px;
-border-radius:10px;
+width:280px;
+height:360px;
+object-fit:cover;
+margin:12px;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,0.12);
 }
 
 .contact{
-background:#111;
+background:#111111;
 color:white;
+}
+
+.contact a{
+color:#c6a86a;
+text-decoration:none;
+font-weight:bold;
 }
 
 </style>
@@ -74,15 +131,17 @@ color:white;
 
 <h1>Ammoury Electric</h1>
 
-<p>Modern Lighting & Decorative Lighting Solutions</p>
+<p>It’s a lifestyle.</p>
+
+<p>Luxury chandeliers, decorative lighting, and elegant lighting pieces designed to elevate every space.</p>
 
 <br>
 
-<a class="button" href="#contact">Contact Us</a>
+<a class="button" href="#products">Explore Collection</a>
 
 </header>
 
-<section class="products">
+<section id="products" class="products">
 
 <h2>Our Lighting Products</h2>
 
