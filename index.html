@@ -2,15 +2,13 @@
 <html>
 <head>
 
-<title>Ammoury Electric | It’s a lifestyle.</title>
+<title>Ammoury Electric | Luxury Lighting – It’s a lifestyle</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<meta name="description" content="Ammoury Electric offers chandeliers, decorative lighting, LED lighting, and modern lighting solutions. It’s a lifestyle.">
+<meta name="description" content="Ammoury Electric offers luxury chandeliers, decorative lighting, modern LED lighting, and elegant lighting solutions designed to transform spaces. Ammoury Electric – It’s a lifestyle.">
 
 <style>
-
 body{
 font-family: 'Georgia', serif;
 margin:0;
@@ -44,12 +42,7 @@ text-transform:uppercase;
 color:#d6be8a;
 margin-bottom:20px;
 }
-<section class="intro-luxury">
-  <h2>Where lighting becomes art</h2>
-  <p>
-    At Ammoury Electric, every piece is chosen to bring elegance, character, and atmosphere into the spaces that matter most.
-  </p>
-</section>
+
 h1{
 font-size:78px;
 margin-bottom:10px;
@@ -72,6 +65,20 @@ margin:0 auto 35px auto;
 color:#f5f1e8;
 }
 
+h2{
+font-size:36px;
+margin-bottom:20px;
+font-weight:normal;
+color:#1f1f1f;
+}
+
+p{
+font-size:18px;
+line-height:1.8;
+max-width:900px;
+margin:0 auto 20px auto;
+}
+
 .button{
 background:#c6a86a;
 padding:18px 38px;
@@ -89,42 +96,11 @@ letter-spacing:1px;
 background:#a8894f;
 transform:translateY(-2px);
 }
-h1{
-font-size:64px;
-margin-bottom:15px;
-letter-spacing:1px;
-font-weight:normal;
+
+section{
+padding:90px 20px;
 }
 
-h2{
-font-size:36px;
-margin-bottom:20px;
-font-weight:normal;
-color:#1f1f1f;
-}
-
-p{
-font-size:18px;
-line-height:1.8;
-max-width:900px;
-margin:0 auto 20px auto;
-}
-
-.button{
-background:#c6a86a;
-padding:16px 32px;
-text-decoration:none;
-color:white;
-font-weight:bold;
-border-radius:30px;
-display:inline-block;
-transition:0.3s;
-border:none;
-}
-
-.button:hover{
-background:#a8894f;
-}
 .intro-luxury{
 background:#fdfaf5;
 padding:100px 20px;
@@ -141,9 +117,6 @@ max-width:820px;
 margin:auto;
 line-height:1.9;
 color:#444;
-}
-section{
-padding:90px 20px;
 }
 
 .products{
@@ -189,8 +162,21 @@ border-radius:18px;
 box-shadow:0 10px 25px rgba(0,0,0,0.12);
 }
 
+.category-section{
+background:#ffffff;
+border-top:1px solid #eee4d3;
+}
+
+.category-section:nth-child(even){
+background:#fdfaf5;
+}
+
 .contact{
 background:#111111;
+color:white;
+}
+
+.contact h2{
 color:white;
 }
 
@@ -200,74 +186,158 @@ text-decoration:none;
 font-weight:bold;
 }
 
+.contact-info{
+font-size:20px;
+margin-bottom:15px;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+@media (max-width: 768px){
+h1{
+font-size:48px;
+}
+
+.tagline{
+font-size:24px;
+}
+
+.hero-text{
+font-size:18px;
+}
+
+h2{
+font-size:30px;
+}
+
+.card{
+font-size:18px;
+padding:35px 20px;
+}
+
+.gallery img{
+width:90%;
+height:auto;
+}
+}
 </style>
+
 </head>
 
 <body>
 
 <header>
+<div class="overlay">
+<p class="small-top">Luxury Lighting House</p>
 
 <h1>Ammoury Electric</h1>
 
-<p>It’s a lifestyle.</p>
+<p class="tagline">It’s a lifestyle.</p>
 
-<p>Luxury chandeliers, decorative lighting, and elegant lighting pieces designed to elevate every space.</p>
+<p class="hero-text">
+Enter a world of timeless chandeliers, refined decorative lighting, and statement pieces designed to transform spaces into experiences.
+</p>
 
-<br>
-
-<a class="button" href="#products">Explore Collection</a>
-
+<a class="button" href="#products">Discover the Collection</a>
+</div>
 </header>
 
-<section id="products" class="products">
+<section class="intro-luxury">
+<h2>Where lighting becomes art</h2>
+<p>
+At Ammoury Electric, every piece is chosen to bring elegance, character, and atmosphere into the spaces that matter most. Our collection reflects a luxurious lifestyle where lighting is more than function — it is identity, beauty, and presence.
+</p>
+</section>
 
-<h2>Our Lighting Products</h2>
+<section id="products" class="products">
+<h2>Our Collection</h2>
 
 <div class="grid">
-
-<div class="card">Chandeliers</div>
-
-<div class="card">Decorative Lighting</div>
-
-<div class="card">LED Lighting</div>
-
-<div class="card">Outdoor Lighting</div>
-
-<div class="card">Modern Ceiling Lights</div>
-
-<div class="card">LED Strips</div>
-
+<a href="#chandeliers" class="card">Chandeliers</a>
+<a href="#decorative" class="card">Decorative Lighting</a>
+<a href="#led" class="card">LED Lighting</a>
+<a href="#outdoor" class="card">Outdoor Lighting</a>
+<a href="#ceiling" class="card">Modern Ceiling Lights</a>
+<a href="#strips" class="card">LED Strips</a>
 </div>
-
 </section>
 
 <section class="gallery">
-
 <h2>Lighting Gallery</h2>
+<p>Discover a luxurious world of lighting inspiration and elegant decorative solutions.</p>
 
-<p>Discover some of our lighting styles and decorative solutions.</p>
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80" alt="Luxury chandelier">
+<img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Decorative lighting">
+<img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80" alt="Modern lighting interior">
+</section>
 
-<img src="https://images.unsplash.com/photo-1505693314120-0d443867891c">
-<img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4">
-<img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36">
+<section id="chandeliers" class="category-section">
+<h2>Chandeliers</h2>
+<p>
+Discover our elegant chandelier collection designed to bring grandeur, sophistication, and timeless beauty to every interior. Each piece is selected to create a luxurious focal point and elevate the atmosphere of homes, boutiques, and distinguished spaces.
+</p>
+</section>
 
+<section id="decorative" class="category-section">
+<h2>Decorative Lighting</h2>
+<p>
+Our decorative lighting collection is designed to bring style and atmosphere to any space. At Ammoury Electric, we offer modern decorative lighting solutions that combine elegant design, quality materials, and functional illumination. Our lights help transform homes, shops, and commercial spaces into warm and visually beautiful environments.
+</p>
+<p>
+From stylish wall lights to unique decorative fixtures, our collection is carefully selected to provide both aesthetic appeal and reliable lighting performance for different interior styles.
+</p>
+</section>
+
+<section id="led" class="category-section">
+<h2>LED Lighting</h2>
+<p>
+Explore modern LED lighting solutions that combine efficiency, clean design, and refined illumination. Our LED collection is ideal for contemporary spaces that require both beauty and performance.
+</p>
+</section>
+
+<section id="outdoor" class="category-section">
+<h2>Outdoor Lighting</h2>
+<p>
+Enhance exterior spaces with outdoor lighting designed for entrances, gardens, terraces, and facades. Our selections add security, elegance, and a distinctive visual presence to every outdoor setting.
+</p>
+</section>
+
+<section id="ceiling" class="category-section">
+<h2>Modern Ceiling Lights</h2>
+<p>
+Our modern ceiling lights offer sleek lines, elegant finishes, and balanced lighting for sophisticated interiors. They are designed to complement contemporary spaces with understated luxury.
+</p>
+</section>
+
+<section id="strips" class="category-section">
+<h2>LED Strips</h2>
+<p>
+Discover flexible LED strip lighting solutions perfect for ceilings, furniture, displays, and custom decorative applications. They bring a modern and luxurious touch to interiors with subtle and creative illumination.
+</p>
 </section>
 
 <section id="contact" class="contact">
-
 <h2>Contact Us</h2>
 
-<p>Phone: +961 08930443</p>
+<p class="contact-info">Telephone: 08 930 443</p>
 
-<p>Email: info@ammouryelectric.com</p>
-
-<p>
-<a href="https://wa.me/961399357" style="color:#ffd000;font-size:18px;font-weight:bold;">
-Chat with us on WhatsApp
-</a>
+<p class="contact-info">
+WhatsApp:
+<a href="https://wa.me/9613999357" target="_blank">+961 03 999357</a>
 </p>
 
+<p class="contact-info">
+Email:
+<a href="mailto:info@ammouryelectric.com">info@ammouryelectric.com</a>
+</p>
+
+<p>
+For product inquiries, project discussions, and luxury lighting solutions, contact Ammoury Electric directly.
+</p>
 </section>
 
 </body>
 </html>
+
